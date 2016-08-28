@@ -1,0 +1,4 @@
+		
+		<div class="note">
+			The research on the social computing is totally new to me, I will admit that I would a lot to learn.
+		</div>

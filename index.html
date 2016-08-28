@@ -5,82 +5,98 @@
 		<link href="styles.css" rel="stylesheet" />
 	</head>
 	<body>
-		<div id="impress">		
+		<div id="impress" data-width="1024" data-height="768">		
 			<div class="no-support-message">
 				Sorry! This browser won't let me impress you. Please allow me to try one.
 			</div>
 			
-			<div class="step">
-				My Research
+			<div class="step" data-y="0" >
+				<div class="title">My Research</div>
+				<div class="content">
+				<ul>
+					<li>Natual Language Processing</li>
+					<li>Information Retrival</li>
+					<li>Machine learning</li>
+				</ul>
+				</div>			
 			</div>
 			
-			<div class="step" data-y="500">
-			Natual Language Processing and Social Computing
+			<div class="step" data-y="800">
+				<div class="title">Natual Language Processing and Social Computing</div>
+								<div class="content">
 				<ul>
 					<li>Information entropy</li>
 					<li>Statiscial modeling: hidden markov model</li>
-					<li>Application in Social Computing: Name entity recognision (suburbs, ) </li>
+					<li>Application in Social Computing: Name entity recognision (suburbs, ...) </li>
 				</ul>
 			</div>
 			
-			<div class="step" data-x="-1000">
-				Information Retrival and Social Computing
-					<li></li>
-					<li>Statiscial modeling: hidden markov model</li>
-					<li>Application in Social Computing: Name entity recognision (suburbs, ) </li>				
-			</div>
-
-			<div class="step" data-x="1000">
-				Automated Entity Recommendation and Social Computing
+			<div class="step" data-y="1600">
+				<div class="title">Information Retrival and Social Computing</div>
+								<div class="content">
+				<ul>
+					<li>unstructured data management</li>
+					<li>effective and efficient data lookup with a high quality social data search engine </li>
+					<li>automated data source recommendation</li>
+					<li>also usefule for the experiment result validation</li>	
+				</ul>
+								</div>				
 			</div>
 			
-			<div class="step" data-x="1000">
-				Classification and Social Computing
+			<div class="step" data-y="2400">
+				<div class="title">Classification and Social Computing</div>
+								<div class="content">
 				<ul>
-					<li>k-tree (k-means + b-tree)</li>
+					<li>k-tree (k-means + b-tree), hierarchical balanced tree</li>
 					<li>social group feature extraction</li>
 					<li>simility of groups: Euclidean Distance, Hamming Distance, ...</li>
 					<li>group classification</li>
 				</ul>
 			</div>
 
-			<div class="step" data-y="-800">
-				My Skills
+			<div class="step" data-y="3200">
+				<div class="title">My Skills</div>
+				<div class="content">
+				<ul>
+					<li>Programming skills: JavaScript, Java, C++, PHP, ...</li>
+					<li>Database skills: Oracle, MS SQL Server, MySQL, PostgreSQL, ...</li>
+					<li>Project management skills</li>
+				</ul>
+				</div>
 			</div>
 			
-			<div class="step" data-y="975">
-				Software Engineering and Social Computing
+			<div class="step" data-y="4000">
+				<div class="title">Software Engineering and Social Computing</div>
+								<div class="content">
 				<ul>
 					<li>High quality experiment tools</li>
 					<li>Reliable experiment results</li>
 					<li>High probability of wide adoption</li>
 				</ul>
+				</div>
 			</div>
 
-			<div class="step" data-y="975">
-				Data Visiualisation and Social Computing
+			<div class="step" data-y="4800">
+				<div class="title">Data Visiualisation and Social Computing</div>
 			</div>
 
-			<div class="step" data-y="1500" data-scale="10">
-				All these lead to a <b>STRONG</b> <b>FOUNDATION</b> for the new research
+			<div class="step" data-y="5600" data-scale="10">
+				<div class="title">All these lead to a <b>STRONG</b> <b>FOUNDATION</b> for the new research</div>
 			</div>
 
-			<div class="step" data-y="2000" data-rotate-y="90">
-				... new callenges
+			<div class="step" data-y="6400" data-rotate-y="90">
+				... new callenges<br/>
 				... novel ideas.
 				... great solutions.
 			</div>
 
-			<div class="step" data-rotate-z="180" data-y="-1800" data-scale=".25">
-				Thank you.
+			<div class="step" data-rotate-z="180" data-y="7200" data-scale=".25">
+				<div class="title">Thank you.</div>
 			</div>
 		
 		</div>
-		
-		<div class="note">
-			The research on the social computing is totally new to me, I will admit that I would a lot to learn.
-		</div>
-		
+
+		<script type="text/javascript">impress().init();</script>
 		<script type="text/javascript" src="impress.js"></script>
 	</body>
 </html>
