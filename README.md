@@ -1,7 +1,7 @@
-Try Raspberry Pi
+Social Computing and Me
 =========
-Just another short introduction to the Raspberry Pi.
 
-<http://imcaspar.github.io/try-respi>
 
-![ScreenShot](screenshot.png)
+Credits
+=======
+Template from : <http://imcaspar.github.io/try-respi>
